@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Website</title>
+  <!-- Linka o css -->
+  <link rel="stylesheet" type="text/css" href="Artistas.css" media="screen" />
+  <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , 
+      only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+  <!-- Linka o font-awesome para gerar as imagens na barra de nav. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- FIM - Linka o font-awesome para gerar as imagens na barra de nav. -->
+</head>
+
+<body>
+  <!-- Barra de nav. -->
+  <div class="menu-btn">
+    <i class="fas fa-bars"></i>
+  </div>
+  <div class="side-bar">
+    <div class="close-btn">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="menu">
+      <div class="item">
+        <a href="../index/testeeeee1.0.php"><i class="fa-solid fa-house"></i>Início</a>
+        <!-- "FA-SOLID FA-HOUSE" são os IDs das imagens linkadas no FONT-AWESOME-->
+        <a href="http://localhost/formulario-2/artistas/Artistas.html"><i class="fa-solid fa-palette"></i>Artistas</a>
+        <a href="../playlists/playlist.html"><i class="fa-solid fa-music"></i>Playlists</a>
+      </div>
+      <div class="logout-button">
+        <a id="logoutBtn"><i class="fas fa-sign-out-alt"></i>Sair</a>
+      </div>
+    </div>
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Tem certeza que deseja sair?</p>
+      <div class="modal-buttons">
+        <button id="confirmBtn">Sim</button>
+        <button id="cancelBtn">Não</button>
+      </div>
+    </div>
+  </div>
+  <!-- FIM - Barra de nav.-->
+
+ <!-- Estrutura geral do site -->
+   <div class="Container">
+     <div class="outroContainer">
+      <div class="card">
+      <a href="../artistas/all/taylor.html">
+        <div class="img-holder">
+          <img src="../imgs/taylor.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Taylor Swift</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/postmalone.html">
+        <div class="img-holder">
+          <img src="../imgs/malone.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Post Malone</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/justin.html">
+        <div class="img-holder">
+          <img src="../imgs/justin.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Justin Bieber</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/matue.html">
+        <div class="img-holder">
+          <img src="../imgs/matue.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Matuê</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/harry.html">
+        <div class="img-holder">
+          <img src="../imgs/harry.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Harry Styles</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="outroContainer2">
+      <div class="card">
+      <a href="../artistas/all/bmth.html">
+        <div class="img-holder">
+          <img src="../imgs/bmth.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>BMTH</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/eminem.html">
+        <div class="img-holder">
+          <img src="../imgs/m&m.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Eminem</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/nx.html">
+        <div class="img-holder">
+          <img src="../imgs/nx.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>NX Zero</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/guns.html">
+        <div class="img-holder">
+          <img src="../imgs/guns.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Guns N' Roses</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/blackpink.html">
+        <div class="img-holder">
+          <img src="../imgs/blackpink.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>BLACKPINK</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="outroContainer3">
+      <div class="card">
+      <a href="../artistas/all/slipknot.html">
+        <div class="img-holder">
+          <img src="../imgs/slipknot.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Slipknot</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/brunomars.html">
+        <div class="img-holder">
+          <img src="../imgs/Brunomars.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Bruno Mars</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/luansantana.html">
+        <div class="img-holder">
+          <img src="../imgs/luansantana.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Luan Santana</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/thewknd.html">
+        <div class="img-holder">
+          <img src="../imgs/weekend.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>The Weeknd</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+      <a href="../artistas/all/alok.html">
+        <div class="img-holder">
+          <img src="../imgs/alok.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Alok</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle">
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+  <!-- "Rodapé" do site -->
+  <div id="footer_content">
+    <nav>
+      <ul>
+        <li style="
+              float: right;
+              line-height: 70px;
+              text-align: center;
+              margin-right: 30px;
+            ">
+          &copy; 2024 AGL Music. Todos os direitos reservados.
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<script src="http://localhost/formulario-2/js/main.js"></script>
+</body>
+</html>

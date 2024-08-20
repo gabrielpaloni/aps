@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Website</title>
+  <link rel="stylesheet" type="text/css" href="playlist.css" media="screen" />
+  <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , 
+      only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="side-bar">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="menu">
+        <div class="item">
+          <a href="../index/testeeeee1.0.php"><i class="fa-solid fa-house"></i>Início</a>
+          <!-- "FA-SOLID FA-HOUSE" são os IDs das imagens linkadas no FONT-AWESOME-->
+          <a href="http://localhost/formulario-2/artistas/Artistas.html"><i class="fa-solid fa-palette"></i>Artistas</a>
+          <a href="../playlists/playlist.html"><i class="fa-solid fa-music"></i>Playlists</a>
+        </div>
+        <div class="logout-button">
+          <a id="logoutBtn"><i class="fas fa-sign-out-alt"></i>Sair</a>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Tem certeza que deseja sair?</p>
+        <div class="modal-buttons">
+          <button id="confirmBtn">Sim</button>
+          <button id="cancelBtn">Não</button>
+        </div>
+      </div>
+    </div>
+    <h1 class="titulo-pagina"></h1>
+    <div class="Container">
+      <div class="outroContainer">
+        <a href="../playlists/all/viralhits.html">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/viralhits.jpg"" />
+            </div>
+            <div class="text">
+              <h2>Viral Hits</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../playlists/all/phonk.html">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/phonk.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Phonk</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../playlists/all/chillhop.html">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/chillpop.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Chillhop</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../playlists/all/rockforever.html">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/rockforever.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Rock Forever</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="../playlists/all/funkhits.html">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/funk.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>Funk Hits</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </a>
+      <a href="../playlists/all/hiphop.html">
+        <div class="outroContainer2">
+          <div class="card">
+            <div class="img-holder">
+              <img src="../imgs/hiphop.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h2>'90s Hip-Hop</h2>
+            </div>
+            <div class="play-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+      </a>
+      <a href="../playlists/all/testify.html">
+        <div class="card">
+          <div class="img-holder">
+            <img src="../imgs/testify.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Testify</h2>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="../playlists/all/alternativemetal.html">
+        <div class="card">
+          <div class="img-holder">
+            <img src="../imgs/alternative_metal.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Alternative Metal</h2>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="../playlists/all/bluesclassic.html">
+        <div class="card">
+          <div class="img-holder">
+            <img src="../imgs/blues.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Blues Classics</h2>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="../playlists/all/animenow.html">
+        <div class="card">
+          <div class="img-holder">
+            <img src="../imgs/anime.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Anime Now</h2>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </a>
+    <a href="../playlists/all/kpop.html">
+      <div class="outroContainer3">
+        <div class="card">
+          <div class="img-holder">
+            <img src="../imgs/kpop.jpg" alt="" />
+          </div>
+          <div class="text">
+            <h2>K-Pop ON! (온)</h2>
+          </div>
+          <div class="play-icon">
+            <div class="circle">
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+    </a>
+    <a href="../playlists/all/danceparadise.html">
+      <div class="card">
+        <div class="img-holder">
+          <img src="../imgs/eletro.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Dance Paradise</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="../playlists/all/indiescene.html">
+      <div class="card">
+        <div class="img-holder">
+          <img src="../imgs/indi2000s.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>'00s Indie Scene</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="../playlists/all/emoforever.html">
+      <div class="card">
+        <div class="img-holder">
+          <img src="../imgs/emoforever.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>Emo Forever</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="../playlists/all/pov.html">
+      <div class="card">
+        <div class="img-holder">
+          <img src="../imgs/pov.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h2>POV</h2>
+        </div>
+        <div class="play-icon">
+          <div class="circle">
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </a>
+    </div>
+    <div id="footer_content">
+      <nav>
+        <ul>
+          <li style="
+              float: right;
+              line-height: 70px;
+              text-align: center;
+              margin-right: 30px;
+            ">
+            &copy; 2024 AGL Music. Todos os direitos reservados.
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+
+</html>
