@@ -105,6 +105,7 @@ h1, h2, p, li, img {
 /* Sidebar */
 .side-bar {
   background: rgba(0, 0, 0, 0.9);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   width: 290px;
   height: 100vh;
@@ -215,6 +216,7 @@ h1, h2, p, li, img {
   display: block;
   padding: 15px 30px; /* Ajuste o padding conforme necessário para o tamanho dos botões */
   line-height: 60px;
+  -webkit-user-select: none;
   user-select:none
 }
 
@@ -280,7 +282,6 @@ h1, h2, p, li, img {
   color: #ffffff;
   margin-top: -40px;
   margin-right: -30px;
-  float:inline-end;
   font-size: 28px;
   font-weight: bold;
 }

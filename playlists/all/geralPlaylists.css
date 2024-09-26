@@ -108,10 +108,56 @@ li {
 img {
   color: white;
 }
-iframe{
-  box-shadow: 1px 1px 20px rgb(32, 56, 80), 10px 10px 5px rgb(32, 56, 80) inset;
+
+.viralHits {
+  box-shadow: 1px 1px 20px orangered, 10px 10px 5px orangered inset;
 }
-i{
+.testify{
+  box-shadow: 1px 1px 20px rgb(15, 136, 83), 10px 10px 5px rgb(15, 136, 83) inset;
+}
+.rockforever{
+  box-shadow: 1px 1px 20px red, 10px 10px 5px red inset;
+}
+.phonk{
+  box-shadow: 1px 1px 20px purple, 10px 10px 5px purple inset;
+}
+.kpop{
+  box-shadow: 1px 1px 20px rgb(16, 80, 64), 10px 10px 5px rgb(16, 80, 64) inset;
+}
+.indiescene{
+  box-shadow: 1px 1px 20px rgb(136, 114, 114), 10px 10px 5px rgb(136, 114, 114) inset;
+}
+.hiphop{
+  box-shadow: 1px 1px 20px rgb(166, 105, 22), 10px 10px 5px rgb(166, 105, 22) inset;
+}
+.funkhits{
+  box-shadow: 1px 1px 20px rgb(48, 96, 184), 10px 10px 5px rgb(48, 96, 184) inset;
+}
+.emoforever{
+  box-shadow: 1px 1px 20px rgb(105, 121, 137), 10px 10px 5px rgb(105, 121, 137) inset;
+}
+.danceparadise{
+  box-shadow: 1px 1px 20px rgb(141, 114, 91), 10px 10px 5px rgb(141, 114, 91) inset;
+}
+.chillhop{
+  box-shadow: 1px 1px 20px rgb(128, 40, 64), 10px 10px 5px rgb(128, 40, 64) inset;
+}
+.bluesclassic{
+  box-shadow: 1px 1px 20px rgb(83, 83, 83), 10px 10px 5px rgb(83, 83, 83) inset;
+}
+.animenow{
+  box-shadow: 1px 1px 20px rgb(220, 50, 85), 10px 10px 5px rgb(220, 50, 85) inset;
+}
+.alternativemetal{
+  box-shadow: 1px 1px 20px rgb(103, 119, 151), 10px 10px 5px rgb(103, 119, 151) inset;
+}
+.pov{
+  box-shadow: 1px 1px 20px rgb(0, 85, 255), 10px 10px 5px rgb(0, 85, 255) inset;
+}
+
+  
+
+i {
   margin-right: 15px;
 }
 a {
@@ -150,7 +196,7 @@ a {
   color: #ffffff;
   margin-top: -40px;
   margin-right: -30px;
-  float: inline-end;
+  float: inline;
   font-size: 28px;
   font-weight: bold;
 }
@@ -198,6 +244,7 @@ a {
 /* Sidebar */
 .side-bar {
   background: rgba(0, 0, 0, 0.9);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   width: 290px;
   height: 100vh;
@@ -308,6 +355,7 @@ a {
   display: block;
   padding: 15px 30px; /* Ajuste o padding conforme necessário para o tamanho dos botões */
   line-height: 60px;
+  -webkit-user-select: none;
   user-select: none;
 }
 
