@@ -21,6 +21,14 @@ To develop a music management platform (streaming hub concept) that applies core
 
 ---
 
+## 👥 Contributors (Team)
+
+* **Gabriel Paloni** - *Developer & Project Lead*
+* **Ana Paula** - *Collaborator*
+* **Luciano Porto Sales** - *Collaborator*
+
+---
+
 ## 🛠️ Technical Evolution
 
 This project was pivotal in mastering the fundamentals of web architecture:
@@ -50,7 +58,7 @@ This project was pivotal in mastering the fundamentals of web architecture:
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Main Author
 **Gabriel Paloni**
 *Computer Science Student in Campinas, Brazil.*
 This project marks the beginning of my journey into **Software Engineering**, laying the groundwork for my current focus on **AI** and **Cybersecurity**.
