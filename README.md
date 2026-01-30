@@ -2,7 +2,6 @@
 
 ![Language](https://img.shields.io/badge/Language-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Grade](https://img.shields.io/badge/Grade-10.0-brightgreen?style=for-the-badge)
 
 This repository hosts the **Supervised Practical Activity (APS)** developed during the **1st Semester** of my Computer Science degree. It represents my first major milestone in software development, bridging theoretical concepts with practical implementation.
 
