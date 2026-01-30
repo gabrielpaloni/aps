@@ -1,0 +1,15 @@
+# Arquivos de Sistema Operacional (Lixo)
+Thumbs.db
+.DS_Store
+
+# Configurações do VS Code (Isso é pessoal seu, ninguém precisa ver)
+.vscode/
+.hintrc
+
+# Logs de Erro (O XAMPP costuma criar esses arquivos quando dá erro)
+error_log
+*.log
+
+# Dependências (Se um dia você usar Node ou Composer)
+node_modules/
+vendor/
